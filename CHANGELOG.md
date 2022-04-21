@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+ - Added the `try_apply_chunker()` function.
+
 ## 0.1.0
 
 - Initial release of the `cobalt-async` crate.

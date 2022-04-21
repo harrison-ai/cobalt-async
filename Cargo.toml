@@ -19,5 +19,6 @@ include = [
 futures = "0.3.21"
 
 [dev-dependencies]
+anyhow = "1.0.56"
 tokio = { version = "1.17.0", features=["macros"] }
 tokio-test = "0.4.2"
