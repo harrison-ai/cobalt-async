@@ -11,7 +11,7 @@ use std::panic::{AssertUnwindSafe, UnwindSafe};
 ///
 /// This pattern can be useful for running cleanup code, for example in cleaning up
 /// after running a test. Rust code would typically use a scope guard with a `Drop` impl
-/// for doing such cleanup work, but that does handle code that needs to be async.
+/// for doing such cleanup work, but that doesn't handle code that needs to be async.
 ///
 /// # Example
 ///
