@@ -89,7 +89,7 @@ where
     FFut: Future<Output = Result<(), Err>>,
 {
     // Here we want to call the "body closure" to produce a "body future",
-    // attempt to run the body-future to completion. Regardless of whether
+    // then attempt to run the body-future to completion. Regardless of whether
     // that succeeds or fails, we want to call a "finally closure" to produce a
     // "finally future" that we run to completion before returning the result
     // of the body-future to the caller.
