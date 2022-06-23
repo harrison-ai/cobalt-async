@@ -10,13 +10,13 @@ use std::panic::{AssertUnwindSafe, UnwindSafe};
 /// the body returned successfully, returned an error, or panicked.
 ///
 /// This pattern can be useful for running cleanup code, for example in cleaning up
-/// after running a test. Rust code would typically use a scope guard with a `Drop` impl
+/// after running a test. Rust code would typically use a scope guard with a [`Drop`] impl
 /// for doing such cleanup work, but that doesn't handle code that needs to be async.
 ///
 /// # Example
 ///
 /// ```
-/// use cobalt_async::{try_finally};
+/// use cobalt_async::try_finally;
 /// use anyhow::Ok;
 ///
 /// # tokio_test::block_on(async {
@@ -37,12 +37,12 @@ use std::panic::{AssertUnwindSafe, UnwindSafe};
 /// # })
 /// ```
 ///
-/// If the body closure references state that is not `UnwindSafe`, you may need
-/// to manually annotate it with `AssertUnwindSafe`, and ensure that the finally
+/// If the body closure references state that is not [`UnwindSafe`], you may need
+/// to manually annotate it with [`AssertUnwindSafe`], and ensure that the finally
 /// closure does not manipulate that state in a way that would violate unwind safety.
 ///
 /// ```
-/// use cobalt_async::{try_finally};
+/// use cobalt_async::try_finally;
 /// use anyhow::Ok;
 /// use std::cell::RefCell;
 ///
