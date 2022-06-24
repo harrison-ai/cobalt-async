@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.3.0
+
 - Added a `try_finally` helper for running async cleanup code at the end of
   an async Result-returning block.
 
