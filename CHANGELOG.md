@@ -6,9 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+- Added a `try_finally` helper for running async cleanup code at the end of
+  an async Result-returning block.
+
 ## 0.2.0
 
- - Added the `try_apply_chunker()` function.
+- Added the `try_apply_chunker()` function.
 
 ## 0.1.0
 
