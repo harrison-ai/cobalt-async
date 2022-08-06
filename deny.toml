@@ -19,6 +19,7 @@ copyleft = "deny"
 allow = [
     "MIT",
     "Apache-2.0",
+    "Unicode-DFS-2016",
     # You can safely enable these licenses if needed:
     # "BSD-3-Clause",
     # "ISC",
