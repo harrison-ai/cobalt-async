@@ -16,7 +16,7 @@ include = [
 ]
 
 [dependencies]
-futures = "0.3.21"
+futures = "0.3.25"
 
 [dev-dependencies]
 anyhow = "1.0.65"
