@@ -15,8 +15,16 @@ include = [
     "LICENCE",
 ]
 
+[features]
+full = ["checksum"]
+
+checksum = ["crc32fast", "pin-project-lite", "anyhow"]
+
 [dependencies]
+anyhow = { version = "1.0.66", optional = true }
+crc32fast = { version = "1.3.2", optional=true }
 futures = "0.3.25"
+pin-project-lite = { version = "0.2.9", optional=true }
 
 [dev-dependencies]
 anyhow = "1.0.66"

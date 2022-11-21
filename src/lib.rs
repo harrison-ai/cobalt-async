@@ -12,6 +12,8 @@
 //! ventures and ultimately improve the standard of healthcare for 1 million lives every day.
 //!
 
+#[cfg(feature = "checksum")]
+pub mod checksum;
 mod chunker;
 mod try_finally;
 
