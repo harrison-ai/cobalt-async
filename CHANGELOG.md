@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+- Added checksum module with CRC32Sink to calculate CRC32.
+- Added counter module with ByteCounter and ByteLimit.
+- Enable optional features generation on docs.rs.
+
 ## 0.3.0
 
 - Added a `try_finally` helper for running async cleanup code at the end of
