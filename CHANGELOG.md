@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added checksum module with CRC32Sink to calculate CRC32.
 - Added counter module with ByteCounter and ByteLimit.
 - Enable optional features generation on docs.rs.
+- Update tokio to 1.22.0 
+- Update anyhow to 1.0.66
+- Update futures to 0.3.25
 
 ## 0.3.0
 
