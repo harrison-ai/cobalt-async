@@ -32,7 +32,7 @@ pin-project-lite = "0.2.9"
 
 [dev-dependencies]
 anyhow = "1.0.66"
-tokio = { version = "1.22.0", features=["macros"] }
+tokio = { version = "1.37.0", features=["macros"] }
 tokio-test = "0.4.2"
 
 [package.metadata.docs.rs]
