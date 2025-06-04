@@ -2,24 +2,15 @@
 # for details on these configuration options.
 
 [advisories]
-vulnerability = "deny"
-unmaintained = "warn"
-yanked = "warn"
-notice = "warn"
-ignore = [
-    # time/chrono problems, have not been a problem in practice
-    # "RUSTSEC-2020-0159",
-    # "RUSTSEC-2020-0071",
-]
+version = 2
+yanked = "deny"
 
 [licenses]
-default = "deny"
-unlicensed = "deny"
-copyleft = "deny"
+version = 2
 allow = [
     "MIT",
     "Apache-2.0",
-    "Unicode-DFS-2016",
+    "Unicode-3.0"
     # You can safely enable these licenses if needed:
     # "BSD-3-Clause",
     # "ISC",
